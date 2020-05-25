@@ -6,8 +6,16 @@ export default class NavBar {
   template() {
     document.querySelector("#app").innerHTML += /*html*/ `
       <nav class="tabbar">
-        <a href="#home">Home</a>
-        <a href="#persons">Persons</a>
+
+      <div class="logo"><img src="../images/logo-pb.png" alt=""></div>
+      
+      <div class="links">        
+      <a href="#home"><i class="fas fa-home"></i></a>
+      <a href="#persons"><i class="fas fa-user"></i></a>
+      <a href="#persons"><i class="fas fa-search"></i></a>
+      </div>
+
+
       </nav>
     `;
   }

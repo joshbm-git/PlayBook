@@ -1,10 +1,15 @@
 /* ---------- root variables ---------- */
 :root {
-  --green: rgb(38, 76, 89);
-  --light-green: rgb(172, 198, 201);
+  --purple: #6562f8;
   --light-grey: #f1f1f4;
   --text-color-light: #f1f1f1;
   --text-color-dark: #333;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* ---------- general styling ---------- */
@@ -32,78 +37,72 @@ h3 {
   letter-spacing: 2px;
 }
 
-/* ---------- topbar styling ---------- */
-.topbar {
-  background-color: var(--green);
-  color: var(--text-color-light);
-  padding: 13.5px;
-  text-transform: uppercase;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
-}
-
-.topbar h2 {
-  margin: 0;
-  font-weight: 300;
-}
-
 /* ---------- tabbar styling ---------- */
 .tabbar {
-  background-color: var(--green);
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 9999;
+  background-color: white;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 15em;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 15%;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  align-items: center;
 }
 
 /* Style the links inside the navigation bar */
 .tabbar a {
   display: inline-block;
-  color: var(--text-color-light);
+  color: var(--purple);
   text-align: center;
-  padding: 20px 16px;
   text-decoration: none;
-  font-size: 0.8em;
+  margin-right: 1em;
+  font-size: 2em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  color: lightgrey;
 }
 
 /* Change the color of links on hover */
 .tabbar a:hover {
   background-color: var(--light-grey);
-  color: var(--text-color-dark);
 }
 
 /* Add a color to the active/current link */
 .tabbar a.active {
-  background-color: var(--light-green);
-  color: var(--text-color-light);
+  color: var(--purple);
 }
 
 /* ---------- page styling ---------- */
 .page {
   display: none;
   /*min heigh is screen heigh minus height of tab and top bar */
-  min-height: calc(100vh - 110px);
+  min-height: 95vh;
   background: var(--light-grey);
   animation: fadeIn 0.4s;
-  /* padding equals height of tabbar and topbar */
-  padding: 55px 0;
 }
 
 /* ---------- animations ---------- */
 /* fade in */
 @keyframes fadeIn {
   from {
-    opacity: 0
+    opacity: 0;
   }
 
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -175,12 +174,12 @@ h3 {
   }
 }
 
-.grid-container>article {
+.grid-container > article {
   text-align: center;
   padding: 10px;
 }
 
-.grid-container>article img {
+.grid-container > article img {
   max-width: 300px;
   width: 100%;
   margin-bottom: 1em;

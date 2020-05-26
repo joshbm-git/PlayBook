@@ -1,37 +1,41 @@
-import personService from "../services/persons.js";
 export default class PersonsPage {
   constructor() {
+    //create array of objects
+    let workouts = [
+      {
+        number: "one",
+        summary: "squat to kick 3 sets of 20 reps",
+        description:
+          "Do 3 sets of 20 reps. Make sure you remain control during the excentric movement. Pause for 1 second at the bottom and push through your heels to begin the concentric motion",
+      },
+      {
+        number: "two",
+        summary: "other workout summary",
+        description: "different description goes here",
+      },
+    ];
     this.template();
-    this.initData();
-  }
-
-  async initData() {
-    let persons = await personService.loadPersons();
-    this.appendPersons(persons);
+    this.appendWorkouts(workouts);
   }
 
   template() {
-    document.querySelector('#app').innerHTML += /*html*/ `
+    document.querySelector("#app").innerHTML += /*html*/ `
       <section id="persons" class="page">
         <header class="topbar">
           <h2>Persons</h2>
         </header>
-        <div id="grid-persons" class="grid-container"></div>
+        <h1>asdasd</h1>
+        <h1>asdasd</h1>
+        <h1>asdasd</h1>
+        <h1>asdasd</h1>
+        <div id="grid-persons" class="grid-container">
+        <h1>asdasd</h1></div>
       </section>
     `;
   }
 
-  appendPersons(persons) {
-    let template = "";
-    for (let person of persons) {
-      template += /*html*/ `
-        <article>
-          <img src="${person.picture.large}">
-          <h4>${person.name.first} ${person.name.last}</h4>
-          <p><a href="mailto:${person.email}">${person.email}</a></p>
-        </article>
-        `;
-    }
-    document.querySelector("#grid-persons").innerHTML = template;
+  appendWorkouts(workouts) {
+    console.log("workouts have been appended!");
+    console.log(workouts);
   }
 }

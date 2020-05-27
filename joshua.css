@@ -4,6 +4,177 @@
   box-sizing: border-box;
 }
 
+.profileWrapper {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  padding: 3em 1em 1em 1em;
+  text-align: left;
+}
+
+.profileFlexWrapper {
+  display: flex;
+  width: 100%;
+  margin: 1em 0 5em 0;
+}
+
+.profileMetadata {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  background: #fff;
+  margin-right: 0.5em;
+  border-radius: 6px;
+  padding: 0em 0em 1.5em 0em;
+  height: 100%;
+}
+
+.profileMetadata h3 {
+  margin: 0.5em auto 1.5em auto;
+  min-width: 120px;
+  color: #3c3c49;
+}
+
+.profileInformation {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  background: #fff;
+  margin-left: 0.5em;
+  border-radius: 6px;
+  height: 100%;
+}
+
+.profileInformation h3 {
+  margin: 0.5em auto 1.5em auto;
+  min-width: 120px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #808080;
+}
+
+.profilePicture {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 2em auto 1em auto;
+  border-radius: 50%;
+}
+
+.profileAndSubscription {
+  width: 50%;
+  margin: 1em 0em;
+  padding: 1em 2em;
+  border-right: 1px solid #e1e1e1;
+}
+
+.helpSection {
+  width: 50%;
+  margin: 1em 0em;
+  padding: 1em 2em;
+}
+
+.helpSection a {
+  width: 100%;
+  display: block;
+  border-top: 1px solid #e3e3e3;
+  padding: 1em 0;
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
+
+.strokedButton {
+  background-color: none;
+  border: 3px solid #6562f8;
+  color: #6562f8;
+  font-weight: 700;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  max-width: 300px;
+  width: 80%;
+  margin: 0em auto 0.8em auto;
+  border-radius: 4px;
+}
+
+.strokedButton:hover {
+  opacity: 0.5;
+}
+
+.gradientButtonBlue {
+  background-image: linear-gradient(to right, #733fff, #538de1);
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  max-width: 280px;
+  width: 80%;
+  margin: 0.8em auto 1.5em auto;
+  border-radius: 25px;
+  text-transform: uppercase;
+  min-height: 45px;
+}
+
+.gradientButtonBlue:hover {
+  background-image: linear-gradient(to right, #6367ef, #6367ef);
+}
+
+.gradientButtonRed {
+  background-image: linear-gradient(to right, #ee2280, #fe6b5f);
+  color: #fff;
+  font-weight: 500;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  max-width: 280px;
+  width: 80%;
+  margin: 0em auto 0.8em auto;
+  border-radius: 25px;
+  text-transform: uppercase;
+  min-height: 45px;
+}
+
+.gradientButtonRed:hover {
+  background-image: linear-gradient(to right, #f4486d, #f4486d);
+}
+
+#name {
+  border-radius: 4px;
+  width: 100%;
+  border: 2px solid #ebebeb;
+}
+
+#instagram {
+  border-radius: 4px;
+  width: 100%;
+  border: 2px solid #ebebeb;
+}
+
+#submit {
+  min-height: 45px;
+  margin: 1em 0 2em 0;
+  cursor: pointer;
+}
+
+input {
+  margin: 1em 0em;
+}
+
+.activeSubscription {
+  color: #41f075;
+  font-weight: 500;
+  font-size: 20px;
+}
+
 .page {
   background-color: lightgray;
   padding: 5em 10em;
@@ -65,11 +236,15 @@ h2 {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.right {
+.profileInformation {
   padding: 1em 3em;
 }
 
-.right nav ul {
+.profileInformation nav {
+  width: 100%;
+}
+
+.profileInformation nav ul {
   display: flex;
   padding: 1em;
   justify-content: space-evenly;
@@ -77,6 +252,11 @@ h2 {
   border-bottom: 1px solid lightgray;
   color: gray;
   font-weight: bold;
+}
+
+.profileInformation img {
+  height: 100px;
+  width: 100px;
 }
 
 .right-content {

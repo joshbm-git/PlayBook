@@ -11,7 +11,7 @@ export default class NavBar {
       
       <div class="links">        
       <a href="#home"><i class="fas fa-home"></i></a>
-      <a href="#persons"><i class="fas fa-user"></i></a>
+      <a href="#creator"><i class="fas fa-user"></i></a>
       <a href="#persons"><i class="fas fa-search"></i></a>
       </div>
 

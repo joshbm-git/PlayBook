@@ -1,12 +1,14 @@
 // import your components, pages and services
 import NavBar from "./components/navbar.js";
 import HomePage from "./pages/home.js";
+import CreatorPage from "./pages/creator.js";
 import PersonsPage from "./pages/persons.js";
 import spaService from "./services/spa.js";
 
 // Declare and init
 let navbar = new NavBar();
 let homePage = new HomePage();
+let creatorPage = new CreatorPage();
 let personsPage = new PersonsPage();
 
 // init services

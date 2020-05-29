@@ -191,6 +191,7 @@ export default class HomePage {
         <h2>Super Hero</h2>
         <p>Nutrition Plan</p>
         </div>
+        
         <div class="grid-nutrition">
         <img src="images/nutrition.jpg">
         <h2>Super Hero</h2>
@@ -211,14 +212,19 @@ export default class HomePage {
         <h2>Super Hero</h2>
         <p>Nutrition Plan</p>
         </div>
-        <div class="grid-nutrition">
-        <img src="images/nutrition.jpg">
-        <h2>Super Hero</h2>
-        <p>Nutrition Plan</p>
-        </div>
+        
         </div>
         </div>
       </section>
     `;
   }
 }
+
+{/* <div class="grid-discover">
+        
+        <img src="images/magnus.jpg">
+
+        <div class="text-block">
+        <h2>Magnus Lygdback</h2>
+        <p>Trainer & Lifestyle Coach</p>
+        </div> */}

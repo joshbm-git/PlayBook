@@ -1,31 +1,34 @@
-
-  body {
-    margin: 0;
-  }
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
 
 h1 {
-    font-size: 1.5em;
-    font-weight: 800;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-    padding-top: 2em;
+  font-size: 1.5em;
+  font-weight: 800;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  padding-top: 2em;
 }
 
 h3 {
-    font-size: 0.9em;
-    letter-spacing: 0.5em;
-    color: gray;
-    font-weight: 700;
-    text-align: left;
-    margin: 0;
-    padding: 0;
+  font-size: 0.9em;
+  letter-spacing: 0.5em;
+  color: gray;
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 
 .content-wrapper {
-    max-width: 1400px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .flex-container {
@@ -33,114 +36,113 @@ h3 {
 }
 
 .grid-creators {
-background-color: white;
+  background-color: white;
   width: 180px;
   height: 250px;
   border-radius: 1em;
   padding: 10px;
   margin: 10px;
-  
 }
 
-.grid-creators h2{
-    margin-top: 10px;
-    font-weight: 700;
-    font-size: 0.9em;
+.grid-creators h2 {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 0.9em;
 }
 
-.grid-creators img{
-    width: 60%;
-    border-radius: 50%;
-    margin-top: 20px;
+.grid-creators img {
+  width: 60%;
+  border-radius: 50%;
+  margin-top: 20px;
 }
 
-.grid-creators p{
-    margin-top: 20px;
-    font-size: 0.85em;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    background-color:#6562f8;
-    color: white;
-    border-radius: 0.3em;
-    padding: 6%;
-    display: block;
+.grid-creators p {
+  margin-top: 20px;
+  font-size: 0.85em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  background-color: #6562f8;
+  color: white;
+  border-radius: 0.3em;
+  padding: 6%;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-
-    
-    
 }
 
 .grid-discover {
   position: relative;
+  background-color: white;
+  border-radius: 2%;
+  margin: 1em;
+}
+
+.grid-discover img {
+  width: 100%;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 40px;
+  right: 90px;
+  text-align: left;
+}
+
+.text-block h2 {
+  font-weight: 700;
+  font-size: 0.85em;
+  color: white;
+}
+
+.text-block p {
+  font-weight: 500;
+  font-size: 0.75em;
+  color: white;
+}
+
+.tags ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0.5em;
+}
+
+.tags li {
+  margin-right: 1em;
+}
+
+.text-desc {
+  color: black;
+}
+
+.grid-nutrition {
+  position: relative;
   margin: 0.7%;
   margin-bottom: 3%;
-      
-    }
-.text-block {
+}
+
+.grid-nutrition h2 {
   position: absolute;
   bottom: 0;
   left: 0;
+  padding: 6%;
+  margin-bottom: 1.5em;
+  font-weight: 700;
+  font-size: 1.3em;
+  color: white;
 }
-    .grid-discover h2{
-    
-    padding: 6%;
-    margin-bottom: 1.5em;
-    font-weight: 700;
-    font-size: 0.85em;
-    color: white;
-    }
 
-    .grid-discover p{
-        
-        padding: 6%;
-        font-weight: 500;
-        font-size: 0.75em;
-        color: white;
-        }
+.grid-nutrition p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 6%;
+  font-weight: 700;
+  font-size: 1.3em;
+  color: #7fcead;
+}
 
-        .grid-discover img{
-            width: 100%;
-            border-radius: 2%;
-            
-      
-        }
-
-
-        
-        
-        .grid-nutrition {
-          position: relative;
-          margin: 0.7%;
-          margin-bottom: 3%;
-              
-            }
-
-            .grid-nutrition h2{
-              position:absolute;
-              bottom:0;
-              left:0;
-              padding: 6%;
-              margin-bottom: 1.5em;
-              font-weight: 700;
-              font-size: 1.3em;
-              color: white;
-              }
-          
-              .grid-nutrition p{
-                  position:absolute;
-                  bottom:0;
-                  left:0;
-                  padding: 6%;
-                  font-weight: 700;
-                  font-size: 1.3em;
-                  color: #7fcead;
-                  }
-          
-                  .grid-nutrition img{
-                      width: 100%;
-                      border-radius: 2%;
-                      
-                
-                  }
+.grid-nutrition img {
+  width: 100%;
+  border-radius: 2%;
+}

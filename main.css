@@ -56,10 +56,8 @@ a {
 .tabbar {
   background-color: white;
   text-transform: uppercase;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 1em 15em;
+  padding: 0.8em 2em;
   position: fixed;
   top: 0;
   left: 0;
@@ -67,19 +65,31 @@ a {
   z-index: 9999;
 }
 
-.logo {
+.tabbar-content {
+  width: 100%;
+  max-width: 1200px;
   display: flex;
-  align-items: center;
-  width: 15%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.logo {
+  margin: 0.5em 0 0 0;
+  height: 100%;
 }
 
 .logo img {
-  width: 100%;
+  width: 6em;
+  margin: auto;
 }
 
 .links {
   display: flex;
   align-items: center;
+}
+
+.links a {
+  margin-left: 1.5em;
 }
 
 /* Style the links inside the navigation bar */
@@ -88,16 +98,18 @@ a {
   color: var(--purple);
   text-align: center;
   text-decoration: none;
-  margin-right: 1em;
   font-size: 2em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: lightgrey;
 }
 
-/* Change the color of links on hover */
 .tabbar a:hover {
-  background-color: var(--light-grey);
+  opacity: 0.5;
+}
+
+.tabbar img {
+  margin: auto 0;
 }
 
 /* Add a color to the active/current link */
@@ -194,12 +206,12 @@ a {
   }
 }
 
-.grid-container > article {
+.grid-container>article {
   text-align: center;
   padding: 10px;
 }
 
-.grid-container > article img {
+.grid-container>article img {
   max-width: 300px;
   width: 100%;
   margin-bottom: 1em;

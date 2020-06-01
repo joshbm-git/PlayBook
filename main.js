@@ -15,10 +15,3 @@ let personsPage = new PersonsPage();
 spaService.init();
 
 window.pageChange = () => spaService.pageChange();
-window.collapseAbout = () => creatorPage.collapseAbout();
-window.collapseWorkout = () => creatorPage.collapseWorkout();
-window.collapseInsight = () => creatorPage.collapseInsight();
-
-window.collapseWorkout1 = () => creatorPage.collapseWorkout1();
-window.collapseWorkout2 = () => creatorPage.collapseWorkout2();
-window.collapseWorkout3 = () => creatorPage.collapseWorkout3();

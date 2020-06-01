@@ -176,7 +176,7 @@ input {
 }
 
 .page {
-  background-color: var(--light-grey);
+  background-color: #f1f1f4;
   padding: 5em 10em;
 }
 

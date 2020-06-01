@@ -4,12 +4,14 @@ import HomePage from "./pages/home.js";
 import CreatorPage from "./pages/creator.js";
 import PersonsPage from "./pages/persons.js";
 import spaService from "./services/spa.js";
+import MyProfilePage from "./pages/myProfile.js";
 
 // Declare and init
 let navbar = new NavBar();
 let homePage = new HomePage();
 let creatorPage = new CreatorPage();
 let personsPage = new PersonsPage();
+let myProfilePage = new MyProfilePage();
 
 // init services
 spaService.init();

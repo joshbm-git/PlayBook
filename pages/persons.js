@@ -14,7 +14,7 @@ export default class PersonsPage {
     document.querySelector('#app').innerHTML += /*html*/ `
       <section id="persons" class="page">
         <header class="topbar">
-          <h2>Persons</h2>
+          <h2>Profile</h2>
         </header>
         <div id="grid-persons" class="grid-container"></div>
       </section>

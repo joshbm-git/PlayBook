@@ -3,6 +3,7 @@ import NavBar from "./components/navbar.js";
 import HomePage from "./pages/home.js";
 import CreatorPage from "./pages/creator.js";
 import PersonsPage from "./pages/persons.js";
+import WorkoutPage from "./pages/workouts.js";
 import spaService from "./services/spa.js";
 import MyProfilePage from "./pages/myProfile.js";
 
@@ -12,6 +13,7 @@ let homePage = new HomePage();
 let creatorPage = new CreatorPage();
 let personsPage = new PersonsPage();
 let myProfilePage = new MyProfilePage();
+let workoutPage = new WorkoutPage();
 
 // init services
 spaService.init();
@@ -24,3 +26,9 @@ window.collapseInsight = () => creatorPage.collapseInsight();
 window.collapseWorkout1 = () => creatorPage.collapseWorkout1();
 window.collapseWorkout2 = () => creatorPage.collapseWorkout2();
 window.collapseWorkout3 = () => creatorPage.collapseWorkout3();
+
+window.changeWorkout = (workouts, workoutNumber) =>
+  workoutPage.changeWorkout(workouts, workoutNumber);
+window.next = () => workoutPage.next();
+window.previous = () => workoutPage.previous();
+window.progress = () => workoutPage.progress();

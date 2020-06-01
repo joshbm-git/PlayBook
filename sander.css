@@ -1,0 +1,96 @@
+#workoutContainer {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#workoutContainer h2 {
+  padding-top: 20px;
+}
+
+#headline {
+  padding-top: 25px;
+  font-size: 1.5rem;
+}
+
+#progressBar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 40px;
+  width: 500px;
+  height: 50px;
+}
+
+.progressNumber {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.4rem;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+#workoutContainer img {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  width: 100%;
+  height: 400px;
+}
+
+#workoutContainer h3 {
+  padding-top: 20px;
+}
+
+#workoutContainer h4 {
+  text-align: left;
+  padding-top: 20px;
+}
+#workoutContainer p {
+  padding-top: 5px;
+  text-align: left;
+  width: 50%;
+}
+
+.video {
+  width: 800px;
+  height: 500px;
+  margin-top: 50px;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  width: auto;
+  top: 380px;
+  position: absolute;
+  padding: 26px 22px;
+  margin-top: -22px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 8px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 250px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 250px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}

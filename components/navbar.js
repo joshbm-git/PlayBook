@@ -7,7 +7,8 @@ export default class NavBar {
     document.querySelector("#app").innerHTML += /*html*/ `
       <nav class="tabbar">
 
-      <div class="logo"><img src="../images/logo-pb.png" alt=""></div>
+      <div class="logo"> <a href="#home">  <img src="../images/logo-pb.png" alt=""></a>
+    </div>
       
       <div class="links">        
       <a href="#home"><i class="fas fa-home"></i></a>

@@ -1,4 +1,4 @@
-import loaderService from "./loader.js";
+/* import loaderService from "./loader.js";
 class PersonService {
   constructor() {}
 
@@ -16,4 +16,4 @@ class PersonService {
 }
 
 const personService = new PersonService();
-export default personService;
+export default personService; */

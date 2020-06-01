@@ -4,6 +4,7 @@
   --light-grey: #f1f1f4;
   --text-color-light: #f1f1f1;
   --text-color-dark: #333;
+  --bg-color-grey: #d3d3d3;
 }
 
 * {
@@ -24,6 +25,8 @@ html {
 
 body {
   margin: 0;
+  height: 100vh;
+  background: var(--bg-color-grey);
 }
 
 h1 {
@@ -44,6 +47,11 @@ h3 {
   color: #3c3c49;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* ---------- tabbar styling ---------- */
 .tabbar {
   background-color: white;
@@ -52,6 +60,11 @@ h3 {
   justify-content: space-between;
   align-items: center;
   padding: 1em 15em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
 }
 
 .logo {

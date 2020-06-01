@@ -14,17 +14,17 @@ export default class HomePage {
         <div class="grid-creators">
         <img src="images/ninafitness.png">
         <h2>Nina Agdal</h2>
-        <p>START</p>
+        <a href="#creator"> <p>START</p> </a>
         </div>
         <div class="grid-creators">
         <img src="images/ninafitness.png">
         <h2>Nina Agdal</h2>
-        <p>START</p>
+        <a href="#creator"> <p>START</p> </a>
         </div>
         <div class="grid-creators">
         <img src="images/ninafitness.png">
         <h2>Nina Agdal</h2>
-        <p>START</p>
+        <a href="#creator"> <p>START</p> </a>
         </div>
         </div>
 
@@ -32,11 +32,11 @@ export default class HomePage {
         <h3>TOP CREATORS</h3>
 
         <div class="flex-container">
-
+        <a href="#creator"> 
         <div class="grid-discover">
-        
+    
         <img src="images/magnus.jpg">
-
+    
         <div class="text-block">
         <h2>Magnus Lygdback</h2>
         <p>Trainer & Lifestyle Coach</p>
@@ -49,13 +49,14 @@ export default class HomePage {
         </ul>
         </div>
         </div>
+        </a>
 
         
-        
+        <a href="#creator"> 
         <div class="grid-discover">
-        
+    
         <img src="images/magnus.jpg">
-
+    
         <div class="text-block">
         <h2>Magnus Lygdback</h2>
         <p>Trainer & Lifestyle Coach</p>
@@ -68,28 +69,13 @@ export default class HomePage {
         </ul>
         </div>
         </div>
+        </a>
 
-         <div class="grid-discover">
-        
-        <img src="images/magnus.jpg">
-
-        <div class="text-block">
-        <h2>Magnus Lygdback</h2>
-        <p>Trainer & Lifestyle Coach</p>
-        </div>
-        <div class="tags">
-        <ul>
-        <li>Strength</li>
-        <li>Celebrity</li>
-        <li>Athletic</li>
-        </ul>
-        </div>
-        </div>
-
+        <a href="#creator"> 
         <div class="grid-discover">
-        
+    
         <img src="images/magnus.jpg">
-
+    
         <div class="text-block">
         <h2>Magnus Lygdback</h2>
         <p>Trainer & Lifestyle Coach</p>
@@ -102,11 +88,13 @@ export default class HomePage {
         </ul>
         </div>
         </div>
+        </a>
 
-         <div class="grid-discover">
-        
+        <a href="#creator"> 
+        <div class="grid-discover">
+    
         <img src="images/magnus.jpg">
-
+    
         <div class="text-block">
         <h2>Magnus Lygdback</h2>
         <p>Trainer & Lifestyle Coach</p>
@@ -119,6 +107,26 @@ export default class HomePage {
         </ul>
         </div>
         </div>
+        </a>
+
+        <a href="#creator"> 
+        <div class="grid-discover">
+    
+        <img src="images/magnus.jpg">
+    
+        <div class="text-block">
+        <h2>Magnus Lygdback</h2>
+        <p>Trainer & Lifestyle Coach</p>
+        </div>
+        <div class="tags">
+        <ul>
+        <li>Strength</li>
+        <li>Celebrity</li>
+        <li>Athletic</li>
+        </ul>
+        </div>
+        </div>
+        </a>
        
         </div>
 
@@ -126,7 +134,7 @@ export default class HomePage {
         <h3>POPULAR PROGRAMS</h3>
 
         <div class="flex-container">
-
+        <a href="#creator"> 
         <div class="grid-discover">
         
         <img src="images/tombraider.jpg">
@@ -137,8 +145,10 @@ export default class HomePage {
         </div>
         
         </div>
-
-          <div class="grid-discover">
+        </a>
+        
+        <a href="#creator"> 
+        <div class="grid-discover">
         
         <img src="images/tombraider.jpg">
 
@@ -148,8 +158,10 @@ export default class HomePage {
         </div>
         
         </div>
+        </a>
 
-          <div class="grid-discover">
+        <a href="#creator"> 
+        <div class="grid-discover">
         
         <img src="images/tombraider.jpg">
 
@@ -159,8 +171,10 @@ export default class HomePage {
         </div>
         
         </div>
+        </a>
 
-         <div class="grid-discover">
+        <a href="#creator"> 
+        <div class="grid-discover">
         
         <img src="images/tombraider.jpg">
 
@@ -170,8 +184,10 @@ export default class HomePage {
         </div>
         
         </div>
+        </a>
 
-         <div class="grid-discover">
+        <a href="#creator"> 
+        <div class="grid-discover">
         
         <img src="images/tombraider.jpg">
 
@@ -181,6 +197,7 @@ export default class HomePage {
         </div>
         
         </div>
+        </a>
         
         </div>
 
@@ -220,11 +237,13 @@ export default class HomePage {
   }
 }
 
-{/* <div class="grid-discover">
+{
+  /* <div class="grid-discover">
         
         <img src="images/magnus.jpg">
 
         <div class="text-block">
         <h2>Magnus Lygdback</h2>
         <p>Trainer & Lifestyle Coach</p>
-        </div> */}
+        </div> */
+}

@@ -259,15 +259,47 @@ h2 {
   width: 100px;
 }
 
-.right-content {
+.content-flex {
   display: flex;
+}
+
+.content-flex figure {
+  margin-right: 3em;
+
+  text-align: center;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.content-grid section {
+  width: 100%;
+}
+
+.content-grid figure {
+  display: flex;
+  margin-top: 1em;
+  border: solid 1px;
+}
+
+.content-grid p {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 1em;
+}
+
+.workout {
+  display: grid;
 }
 
 .right-content img {
   margin: 1em;
 }
 
-.active {
+.content .active {
   color: var(--purple);
 }
 

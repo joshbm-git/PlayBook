@@ -176,7 +176,7 @@ input {
 }
 
 .page {
-  background-color: lightgray;
+  background-color: var(--light-grey);
   padding: 5em 10em;
 }
 
@@ -184,6 +184,7 @@ h2 {
   text-align: left;
   margin-bottom: 1em;
 }
+
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -226,7 +227,6 @@ h2 {
 }
 
 /* Todo: gradient */
-
 .btn-square {
   border: 3px solid var(--purple);
   color: var(--purple);
@@ -265,7 +265,6 @@ h2 {
 
 .content-flex figure {
   margin-right: 3em;
-
   text-align: center;
 }
 

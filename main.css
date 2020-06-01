@@ -15,7 +15,7 @@
 /* ---------- general styling ---------- */
 html {
   color: var(--text-color-dark);
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   height: 100%;
   text-align: center;
   width: 100%;
@@ -181,12 +181,12 @@ h3 {
   }
 }
 
-.grid-container>article {
+.grid-container > article {
   text-align: center;
   padding: 10px;
 }
 
-.grid-container>article img {
+.grid-container > article img {
   max-width: 300px;
   width: 100%;
   margin-bottom: 1em;

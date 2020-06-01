@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-weight: 800;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  padding-top: 2em;
+}
+
+h3 {
+  font-size: 0.9em;
+  letter-spacing: 0.5em;
+  color: gray;
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.content-wrapper {
+  max-width: 1400px;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.grid-creators {
+  background-color: white;
+  width: 180px;
+  height: 250px;
+  border-radius: 1em;
+  padding: 10px;
+  margin: 10px;
+}
+
+.grid-creators h2 {
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 0.9em;
+}
+
+.grid-creators img {
+  width: 60%;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.grid-creators p {
+  margin-top: 20px;
+  font-size: 0.85em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  background-color: #6562f8;
+  color: white;
+  border-radius: 0.3em;
+  padding: 6%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.grid-discover {
+  position: relative;
+  background-color: white;
+  border-radius: 2%;
+  margin: 0 2em 3em 0;
+}
+
+.grid-discover img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  
+}
+
+.text-block {
+  position: absolute;
+  bottom: 40px;
+  right: 90px;
+  text-align: left;
+}
+
+.text-block h2 {
+  font-weight: 700;
+  font-size: 0.85em;
+  color: white;
+}
+
+.text-block p {
+  font-weight: 500;
+  font-size: 0.75em;
+  color: white;
+}
+
+.tags ul {
+  display: flex;
+  list-style: none;
+  padding-left: 0.5em;
+}
+
+.tags li {
+  margin-right: 1em;
+}
+
+.text-desc {
+  color: black;
+  text-align: left;
+  margin: 0.5em;
+}
+
+.text-desc h2 {
+  font-weight: 700;
+  font-size: 0.85em;
+}
+
+.text-desc p {
+  font-weight: 500;
+  font-size: 0.75em;
+  
+}
+
+.grid-nutrition {
+  position: relative;
+  
+  border-radius: 2%;
+  margin: 0 2em 3em 0;
+}
+
+.grid-nutrition h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 6%;
+  margin-bottom: 1.5em;
+  font-weight: 700;
+  font-size: 1.3em;
+  color: white;
+}
+
+.grid-nutrition p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 6%;
+  font-weight: 700;
+  font-size: 1.3em;
+  color: #7fcead;
+}
+
+.grid-nutrition img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 2%;
+}

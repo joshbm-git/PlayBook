@@ -3,6 +3,7 @@
     "workouts": [
       {
         "name": "Beginner Bodyweight",
+        "img": "fff",
         "steps": [
           {
             "name": "W1 / D1 Bodyweight beginner",
@@ -20,6 +21,7 @@
       },
       {
         "name": "At Home Sculpt",
+        "img": "fff",
         "steps": [
           {
             "name": "HIIT, Core and lower body",
@@ -37,6 +39,7 @@
       },
       {
         "name": "BodyWeight",
+        "img": "fff",
         "steps": [
           {
             "name": "Upper Body",

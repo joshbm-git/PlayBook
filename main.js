@@ -3,8 +3,9 @@ import NavBar from "./components/navbar.js";
 import HomePage from "./pages/home.js";
 import CreatorPage from "./pages/creator.js";
 import WorkoutPage from "./pages/workouts.js";
-import spaService from "./services/spa.js";
 import MyProfilePage from "./pages/myProfile.js";
+
+import spaService from "./services/spa.js";
 
 // Declare and init
 let navbar = new NavBar();

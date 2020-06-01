@@ -1,9 +1,20 @@
 class PlayBookService {
   constructor() {}
 
-  async loadPlaybook() {
+  async loadCreator() {
     try {
-      let response = await fetch("../playbook.json");
+      let response = await fetch("../playbookCreators.json");
+      let jsonData = await response.json();
+      console.log(jsonData);
+      return jsonData;
+    } catch (error) {
+      console.log("Error getting data", error);
+    }
+  }
+
+  async loadWorkout() {
+    try {
+      let response = await fetch("../playbookWorkouts.json");
       let jsonData = await response.json();
       console.log(jsonData);
       return jsonData;

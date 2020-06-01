@@ -17,14 +17,12 @@ h1 {
   margin-bottom: 0.2em;
 }
 
-
-
 .content-wrapper {
   max-width: 1200px;
   margin: auto;
 }
 
-.content-wrapper  h3 {
+.content-wrapper h3 {
   font-size: 0.9em;
   letter-spacing: 0.5em;
   color: gray;
@@ -38,6 +36,7 @@ h1 {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 2em;
 }
 
 .grid-creators {
@@ -59,7 +58,6 @@ h1 {
   width: 60%;
   border-radius: 50%;
   margin-top: 20px;
-  
 }
 
 .grid-creators p {
@@ -84,13 +82,10 @@ h1 {
   margin: 0 1em 1em 0;
 }
 
-
-
 .grid-discover img {
   width: 220px;
   height: 220px;
   object-fit: cover;
-  
 }
 
 .text-block {
@@ -98,7 +93,6 @@ h1 {
   bottom: 30px;
   right: 60px;
   text-align: left;
-  
 }
 
 .text-block h2 {
@@ -112,7 +106,6 @@ h1 {
   font-weight: 500;
   font-size: 0.75em;
   color: white;
-  
 }
 
 .tags ul {
@@ -121,24 +114,16 @@ h1 {
   justify-content: space-between;
   padding: 0 0.5em 0 0.5em;
   color: var(--purple);
-  
-  
-  
 }
 
 .tags li {
-  
   font-weight: 500;
   font-size: 0.9em;
-  
 }
-
 
 .text-desc {
   color: black;
   text-align: left;
-  
-  
 }
 
 .text-desc h2 {
@@ -151,12 +136,11 @@ h1 {
   font-weight: 500;
   font-size: 0.75em;
   margin: 0.2em;
-  
 }
 
 .grid-nutrition {
   position: relative;
-  
+
   border-radius: 2%;
   margin: 0 1em 1em 0;
 }

@@ -3,29 +3,29 @@
     "workouts": [
       {
         "name": "Beginner Bodyweight",
-        "img": "fff",
+        "img": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-image/workout/3-day-bodyweight-feature.jpg",
         "steps": [
           {
             "name": "W1 / D1 Bodyweight beginner",
-            "img": "https://images.squarespace-cdn.com/content/v1/5ddb9fbcaf29e926fca37b83/1580995120509-2JA6RO444UIRYDHVT1R1/ke17ZwdGBToddI8pDm48kJKo3YTR7zgUvInmXMbZ6zZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0geeCvn1f36QDdcifB7yxGjTk-SMFplgtEhJ5kBshkhu5q5viBDDnY2i_eu2ZnquSA/IMG_3033.JPG?format=2500w"
+            "img": "https://www.active.com/Assets/Fitness/2-week-plan.jpg"
           },
           {
             "name": "W1 / D2 Bodyweight beginner",
-            "img": "https://images.squarespace-cdn.com/content/v1/5ddb9fbcaf29e926fca37b83/1580995120509-2JA6RO444UIRYDHVT1R1/ke17ZwdGBToddI8pDm48kJKo3YTR7zgUvInmXMbZ6zZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0geeCvn1f36QDdcifB7yxGjTk-SMFplgtEhJ5kBshkhu5q5viBDDnY2i_eu2ZnquSA/IMG_3033.JPG?format=2500w"
+            "img": "https://media.lifehack.org/wp-content/files/2018/03/21052112/workout-routine-for-men.001-370x208@2x.jpeg"
           },
           {
             "name": "W1 / D3 Bodyweight beginner",
-            "img": "https://images.squarespace-cdn.com/content/v1/5ddb9fbcaf29e926fca37b83/1580995120509-2JA6RO444UIRYDHVT1R1/ke17ZwdGBToddI8pDm48kJKo3YTR7zgUvInmXMbZ6zZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0geeCvn1f36QDdcifB7yxGjTk-SMFplgtEhJ5kBshkhu5q5viBDDnY2i_eu2ZnquSA/IMG_3033.JPG?format=2500w"
+            "img": "https://imagevars.gulfnews.com/2020/03/25/Workout-from-home_17111339f2e_large.jpg"
           }
         ]
       },
       {
         "name": "At Home Sculpt",
-        "img": "fff",
+        "img": "https://images.shape.mdpcdn.com/sites/shape.com/files/low-impact-workout-lunge.jpg",
         "steps": [
           {
             "name": "HIIT, Core and lower body",
-            "img": "https://images.squarespace-cdn.com/content/v1/5ddb9fbcaf29e926fca37b83/1580995120509-2JA6RO444UIRYDHVT1R1/ke17ZwdGBToddI8pDm48kJKo3YTR7zgUvInmXMbZ6zZ7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0geeCvn1f36QDdcifB7yxGjTk-SMFplgtEhJ5kBshkhu5q5viBDDnY2i_eu2ZnquSA/IMG_3033.JPG?format=2500w"
+            "img": "https://www.ravereviews.org/wp-content/uploads/2018/08/Preworkout-Header.jpg"
           },
           {
             "name": "HIIT, Core and upper body",
@@ -39,7 +39,7 @@
       },
       {
         "name": "BodyWeight",
-        "img": "fff",
+        "img": "https://sm.askmen.com/askmen_ap/article/t/the-date-n/the-date-night-workout_tk53.jpg",
         "steps": [
           {
             "name": "Upper Body",

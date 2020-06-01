@@ -56,7 +56,6 @@
 
 .profilePicture {
   width: 200px;
-  height: 200px;
   object-fit: cover;
   margin: 2em auto 1em auto;
   border-radius: 50%;
@@ -177,7 +176,7 @@ input {
 
 .page {
   background-color: #f1f1f4;
-  padding: 5em 10em;
+  /* padding: 5em 10em; */
 }
 
 h2 {
@@ -236,10 +235,10 @@ h2 {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+/*
 .profileInformation {
   padding: 1em 3em;
-}
-
+} */
 .profileInformation nav {
   width: 100%;
 }

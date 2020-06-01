@@ -109,14 +109,25 @@ export default class WorkoutPage {
     document.querySelector("#workoutContainer").innerHTML = htmlTemplate;
   }
 
+  setWorkout(i) {
+    console.log(i);
+    console.log("clicked!");
+    console.log(this.workoutNumber);
+    this.workoutNumber = i;
+    this.changeWorkout(this.workoutNumber);
+    this.progress();
+  }
+
   progress() {
     let color = 'style="background-color:rgb(101, 98, 248);"';
     let htmlTemplate = "";
     for (let i = 0; i < this.workouts.length; i++) {
       if (i >= this.workoutNumber) {
-        color = 'style="background-color:lightgrey;"';
+        color = 'style="background-color:rgb(175,175,175);color: grey;"';
       }
-      htmlTemplate += `<div class="progressNumber"${color}>${i + 1}</div>`;
+      htmlTemplate += `<div onclick="setWorkout(${
+        i + 1
+      });" class="progressNumber"${color}>${i + 1}</div>`;
     }
     document.querySelector("#progressBar").innerHTML = htmlTemplate;
   }

@@ -30,3 +30,4 @@ window.changeWorkout = (workouts, workoutNumber) =>
 window.next = () => workoutPage.next();
 window.previous = () => workoutPage.previous();
 window.progress = () => workoutPage.progress();
+window.setWorkout = (i) => workoutPage.setWorkout(i);

@@ -20,8 +20,10 @@ class SpaService {
   // show page or tab
   showPage(pageId) {
     this.hideAllPages();
+    window.scrollTo(0, 0);
     document.querySelector(`#${pageId}`).style.display = "block";
     this.setActiveTab(pageId);
+
   }
 
   // sets active tabbar/ menu item

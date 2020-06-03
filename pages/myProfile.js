@@ -8,7 +8,7 @@ export default class MyProfilePage {
     document.querySelector("#app").innerHTML += /*html*/ `
       <section id="myProfile" class="page">
       <div class="profileWrapper">
-        <h2>My profile</h2>
+        <h2>My Profile</h2>
           <div class="profileFlexWrapper">
             <section class="profileMetadata">
             <img src="images/sample-profilepicture.jpg" class="profilePicture" alt="Playbook Profile Picture">

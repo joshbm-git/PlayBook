@@ -27,6 +27,16 @@ export default class HomePage {
         <h2>Nina Agdal</h2>
         <a href="#creator"> <p>START</p> </a>
         </div>
+        <div class="grid-creators">
+        <img src="images/magnus.jpg">
+        <h2>Magnus Lygdback</h2>
+        <a href="#creator"> <p>START</p> </a>
+        </div>
+        <div class="grid-creators">
+        <img src="https://pbs.twimg.com/profile_images/967098542014828547/6t7PhcdP_400x400.jpg">
+        <h2>Don Saladino</h2>
+        <a href="#creator"> <p>START</p> </a>
+        </div>
         </div>
 
         <h1>Discover</h1>

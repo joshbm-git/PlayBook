@@ -10,18 +10,18 @@ body {
 }
 
 h1 {
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-weight: 800;
   text-align: left;
-  margin: 0;
+  margin: 1.5em 0 0.3em 0;
   padding: 0;
-  padding-top: 2em;
-  margin-bottom: 0.2em;
+  /* padding-top: 2em; */
 }
 
 .content-wrapper {
-  max-width: 1200px;
+  max-width: 1240px;
   margin: auto;
+  padding: 1em 2em;
 }
 
 .content-wrapper h3 {
@@ -38,7 +38,7 @@ h1 {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 2em;
+  margin-bottom: 3em;
 }
 
 .grid-creators {
@@ -46,7 +46,7 @@ h1 {
   width: 180px;
   height: 250px;
   border-radius: 1em;
-  margin-right: 1em;
+  margin: 0.5em 1em 0.5em 0;
 }
 
 .grid-creators h2 {
@@ -77,6 +77,10 @@ h1 {
   width: 70%;
 }
 
+.grid-creators p:hover {
+  background-image: linear-gradient(to right, #6367ef, #6367ef);
+}
+
 .grid-discover {
   position: relative;
   background-color: white;
@@ -85,9 +89,13 @@ h1 {
 }
 
 .grid-discover img {
-  width: 220px;
-  height: 220px;
+  width: 212px;
+  height: 212px;
   object-fit: cover;
+}
+
+.grid-discover img:hover {
+  filter: brightness(70%);
 }
 
 .text-block {

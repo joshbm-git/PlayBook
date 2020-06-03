@@ -42,7 +42,6 @@ export default class CreatorPage {
           </nav>
 
           <section class="hide right-content" id="contentAbout">
-            <p>About</p>
             <h2>Trailer</h2>
             <iframe
               width="560"

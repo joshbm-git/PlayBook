@@ -1,3 +1,4 @@
+/* ALL CODE BELOW IS MADE BY THE WHOLE GROUP ---------------------------------*/
 class SpaService {
   constructor() {
     this.defaultPage = "home";

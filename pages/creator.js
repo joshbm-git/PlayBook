@@ -1,3 +1,4 @@
+/* ALL CODE BELOW IS MADE BY JOSHUA ---------------------------------*/
 import playBookService from "../services/playbook.js";
 export default class CreatorPage {
   constructor() {

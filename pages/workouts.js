@@ -1,3 +1,4 @@
+/* ALL CODE BELOW IS MADE BY SANDER ---------------------------------*/
 export default class WorkoutPage {
   constructor() {
     //create array of objects

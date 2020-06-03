@@ -1,3 +1,4 @@
+/* ALL CODE BELOW IS MADE BY SANDER ---------------------------------*/
 #workoutContainer {
   width: 70%;
   margin: 0 auto;
@@ -41,6 +42,7 @@
   width: 50px;
   color: white;
 }
+
 .progressNumber:hover {
   filter: brightness(70%);
   transition: 0.3s;
@@ -63,6 +65,7 @@
   text-align: left;
   padding-top: 20px;
 }
+
 #workoutContainer p {
   padding-top: 5px;
   text-align: left;
@@ -75,6 +78,7 @@
   margin: 0 auto;
   margin-top: 50px;
 }
+
 /* Next & previous buttons */
 .prev,
 .next {

@@ -1,3 +1,4 @@
+/* ALL CODE BELOW IS MADE BY MIKE ---------------------------------*/
 import playBookService from "../services/playbook.js";
 export default class HomePage {
   constructor() {
@@ -19,7 +20,7 @@ export default class HomePage {
       <div class="content-wrapper">
       <h1>My Creators</h1>
       <div class="flex-container">
-        
+
 
         <div class="grid-creators">
         <img src="images/ninafitness.png">
@@ -34,15 +35,15 @@ export default class HomePage {
         <div class="flex-container" id="creators">
         </div>
 
-        
+
         <h3>POPULAR PROGRAMS</h3>
 
         <div class="flex-container" id="workouts">
         </div>
 
-     
-       
-        
+
+
+
         </div>
         </div>
       </section>
@@ -55,10 +56,10 @@ export default class HomePage {
     for (let playbook of playbookCreators) {
       for (let creator of playbook.creators) {
         template += /*html*/ `
-        <a href="#creator"> 
+        <a href="#creator">
         <div class="grid-discover">
         <img src="${creator.img}">
-    
+
         <div class="text-block">
         <h2>${creator.name}</h2>
         <p>${creator.title}</p>
@@ -82,16 +83,16 @@ export default class HomePage {
     for (let playbook of playbookWorkouts) {
       for (let workout of playbook.workouts) {
         template += /*html*/ `
-        <a href="#creator"> 
+        <a href="#creator">
         <div class="grid-discover">
-        
+
         <img src="${workout.img}">
 
         <div class="text-desc">
         <h2>${workout.name}</h2>
         <p>Magnus Lygdback</p>
         </div>
-        
+
         </div>
         </a>
         `;
@@ -103,7 +104,7 @@ export default class HomePage {
 
 {
   /* <div class="grid-discover">
-        
+
         <img src="images/magnus.jpg">
 
         <div class="text-block">

@@ -1,3 +1,4 @@
+/* ALL CODE BELOW IS MADE BY JACOB ---------------------------------*/
 export default class MyProfilePage {
   constructor() {
     this.template();

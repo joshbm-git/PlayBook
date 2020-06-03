@@ -1,8 +1,10 @@
+/* ALL CODE BELOW IS MADE BY MIKE ---------------------------------*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
 }
@@ -93,7 +95,6 @@ h1 {
   bottom: 30px;
   left: 10px;
   text-align: left;
-  
 }
 
 .text-block h2 {
@@ -141,7 +142,6 @@ h1 {
 
 .grid-nutrition {
   position: relative;
-
   border-radius: 2%;
   margin: 0 1em 1em 0;
 }

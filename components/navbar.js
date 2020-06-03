@@ -1,3 +1,4 @@
+/* ALL CODE BELOW IS MADE BY THE WHOLE GROUP ---------------------------------*/
 export default class NavBar {
   constructor() {
     this.template();

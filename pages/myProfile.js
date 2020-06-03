@@ -11,7 +11,7 @@ export default class MyProfilePage {
           <div class="profileFlexWrapper">
             <section class="profileMetadata">
             <img src="images/sample-profilepicture.jpg" class="profilePicture" alt="Playbook Profile Picture">
-              <h3>@jacoksen</h3>
+              <h3>@myinstahandle</h3>
               <a href="#myProfile" class="strokedButton">Change pic</a>
               <a href="#myProfile" class="strokedButton">Help</a>
             </section>

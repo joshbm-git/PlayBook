@@ -5,7 +5,6 @@
 }
 
 .page {
-  background-color: lightgray;
   padding-top: 5em;
 }
 
@@ -108,7 +107,6 @@ h2 {
 .content-grid figure {
   display: flex;
   margin-top: 1em;
-
   background-color: white;
 }
 

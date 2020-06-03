@@ -30,7 +30,7 @@ export default class CreatorPage {
           <a href="#myProfile" class="strokedButton">Message</a>
           <a href="#myProfile" class="strokedButton">Share</a>
         </section>
-  
+
         <section class="profileInformation">
           <nav>
             <ul>
@@ -39,7 +39,7 @@ export default class CreatorPage {
               <li onclick="collapseInsight()">Insights</li>
             </ul>
           </nav>
-  
+
           <section class="hide right-content" id="contentAbout">
             <p>About</p>
             <h2>Trailer</h2>
@@ -89,12 +89,12 @@ export default class CreatorPage {
             <p>Feel free to message me and i'll do my best to get back to you.</p>
             <a href="#creator" class="gradientButtonBlue">Send message</a>
           </section>
-  
+
           <section class="show right-content" id="contentWorkouts">
             <div class="content-flex" id="contentWorkoutsTop">
-             
+
             </div>
-            
+
           <div class="content-grid">
           <a href="#workouts" class="gradientButtonBlue">Start workout</a>
 
@@ -144,17 +144,17 @@ export default class CreatorPage {
           </section>
         </div>
           </section>
-  
+
           <section class="hide right-content" id="contentInsights">
-      
+
           </section>
-  
+
         </section>
       </div>
     </div>
   </section>
-  
-  
+
+
 
 
       `;

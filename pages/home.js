@@ -111,14 +111,3 @@ export default class HomePage {
     document.querySelector("#workouts").innerHTML = template;
   }
 }
-
-{
-  /* <div class="grid-discover">
-
-        <img src="images/magnus.jpg">
-
-        <div class="text-block">
-        <h2>Magnus Lygdback</h2>
-        <p>Trainer & Lifestyle Coach</p>
-        </div> */
-}

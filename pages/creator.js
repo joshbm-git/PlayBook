@@ -6,8 +6,11 @@ export default class CreatorPage {
   }
 
   async initData() {
-    let playbooks = await playBookService.loadPlaybook();
-    this.appendPlaybook(playbooks);
+    // let playbookCreators = await playBookService.loadCreator();
+    // this.appendCreator(playbookCreators);
+
+    let playbookWorkouts = await playBookService.loadWorkout();
+    this.appendWorkout(playbookWorkouts);
   }
 
   template() {
@@ -87,32 +90,9 @@ export default class CreatorPage {
             <a href="#creator" class="gradientButtonBlue">Send message</a>
           </section>
   
-          <section class="hide right-content" id="contentWorkouts">
-            <div class="content-flex">
-              <figure>
-                <img
-                  src="https://www.thegate.ca/wp-content/uploads/2020/02/Magnus-880x573.jpg"
-                  class="profilePicture"
-                  onclick="collapseWorkout1()"
-                />
-                <p>Beginner Bodyweight</p>
-              </figure>
-              <figure>
-                <img
-                  src="https://www.thegate.ca/wp-content/uploads/2020/02/Magnus-880x573.jpg"
-                  class="profilePicture"
-                  onclick="collapseWorkout2()"
-                />
-                <p>At home sculpt</p>
-              </figure>
-              <figure>
-                <img
-                  src="https://www.thegate.ca/wp-content/uploads/2020/02/Magnus-880x573.jpg"
-                  class="profilePicture"
-                  onclick="collapseWorkout3()"
-                />
-                <p>Bodyweight</p>
-              </figure>
+          <section class="show right-content" id="contentWorkouts">
+            <div class="content-flex" id="contentWorkoutsTop">
+             
             </div>
             
           <div class="content-grid">
@@ -165,7 +145,7 @@ export default class CreatorPage {
         </div>
           </section>
   
-          <section class="show right-content" id="contentInsights">
+          <section class="hide right-content" id="contentInsights">
       
           </section>
   
@@ -180,19 +160,23 @@ export default class CreatorPage {
       `;
   }
 
-  appendPlaybook(playbooks) {
-    console.log(playbooks);
+  appendWorkout(playbookWorkouts) {
+    console.log(playbookWorkouts);
     let template = "";
-    for (let playbook of playbooks) {
-      for (let creator of playbook.creators) {
-        template += /*html*/ `
-        <article>
-         ${creator.name}
-        </article>
+    for (let playbook of playbookWorkouts) {
+      for (let workout of playbook.workouts) {
+        document.querySelector("#contentWorkoutsTop").innerHTML += /*html*/ `
+        <figure>
+        <img
+          src="${workout.img}"
+          class="profilePicture"
+          onclick="${workout.function}"
+        />
+        <p>${workout.name}</p>
+      </figure>
         `;
       }
     }
-    document.querySelector("#contentInsights").innerHTML = template;
   }
 
   collapseAbout() {

@@ -4,6 +4,7 @@
       {
         "name": "Beginner Bodyweight",
         "img": "https://cdn.muscleandstrength.com/sites/default/files/field/feature-image/workout/3-day-bodyweight-feature.jpg",
+        "function": "collapseWorkout1()",
         "steps": [
           {
             "name": "W1 / D1 Bodyweight beginner",
@@ -22,6 +23,7 @@
       {
         "name": "At Home Sculpt",
         "img": "https://images.shape.mdpcdn.com/sites/shape.com/files/low-impact-workout-lunge.jpg",
+        "function": "collapseWorkout2()",
         "steps": [
           {
             "name": "HIIT, Core and lower body",
@@ -40,6 +42,7 @@
       {
         "name": "BodyWeight",
         "img": "https://sm.askmen.com/askmen_ap/article/t/the-date-n/the-date-night-workout_tk53.jpg",
+        "function": "collapseWorkout3()",
         "steps": [
           {
             "name": "Upper Body",

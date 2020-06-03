@@ -4,7 +4,7 @@ class PlayBookService {
 
   async loadCreator() {
     try {
-      let response = await fetch("../playbookCreators.json");
+      let response = await fetch("./playbookCreators.json");
       let jsonData = await response.json();
       console.log(jsonData);
       return jsonData;
@@ -15,7 +15,7 @@ class PlayBookService {
 
   async loadWorkout() {
     try {
-      let response = await fetch("../playbookWorkouts.json");
+      let response = await fetch("./playbookWorkouts.json");
       let jsonData = await response.json();
       console.log(jsonData);
       return jsonData;

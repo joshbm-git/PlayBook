@@ -23,7 +23,7 @@ export default class CreatorPage {
       <div class="profileFlexWrapper">
         <section class="profileMetadata">
           <img
-            src="../images/magnus.jpg"
+            src="images/magnus.jpg"
             class="profilePicture"
             alt="Playbook Profile Picture"
           />

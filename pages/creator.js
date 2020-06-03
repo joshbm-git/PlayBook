@@ -96,7 +96,7 @@ export default class CreatorPage {
             </div>
 
           <div class="content-grid">
-          <a href="#workouts" class="gradientButtonBlue">Start workout</a>
+          <a href="#workoutSession" class="gradientButtonBlue">Start workout</a>
 
           <section id="workout1" class="show">
             <figure>

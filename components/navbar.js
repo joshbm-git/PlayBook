@@ -12,7 +12,7 @@ export default class NavBar {
       <div class="links">
       <a href="#home"><i class="fas fa-home fa-sm"></i></a>
       <a href="#myProfile"><i class="fas fa-user fa-sm"></i></a>
-      <!-- <a href="#persons"><i class="fas fa-search fa-sm"></i></a> -->
+      <!-- <a href="#workoutSession"><i class="fas fa-search fa-sm"></i></a> -->
       </div>
       </div>
 

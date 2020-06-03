@@ -1,38 +1,33 @@
 export default class WorkoutPage {
   constructor() {
     //create array of objects
-    this.workouts = [
-      {
+    this.workouts = [{
         number: 1,
         video: "https://www.youtube.com/embed/-b2lNLq3EaA",
         type: "Core and lower body",
         summary: "Squat to kick 3 sets of 20 reps",
-        description:
-          "Do 3 sets of 20 reps. Make sure you remain control during the excentric movement. Pause for 1 second at the bottom and push through your heels to begin the concentric motion",
+        description: "Do 3 sets of 20 reps. Make sure you remain control during the excentric movement. Pause for 1 second at the bottom and push through your heels to begin the concentric motion",
       },
       {
         number: 2,
         video: "https://www.youtube.com/embed/ml6cT4AZdqI",
         type: "Arms hypertrophy",
         summary: "Biceps and triceps superset 3 sets of 10 reps",
-        description:
-          "Do 3 supersets of 10 reps. Focus on contracting the muscle at the peak. Maintain control on the negative part of the motion",
+        description: "Do 3 supersets of 10 reps. Focus on contracting the muscle at the peak. Maintain control on the negative part of the motion",
       },
       {
         number: 3,
         video: "https://www.youtube.com/embed/gC_L9qAHVJ8",
         type: "Back and biceps",
         summary: "Bent rows 3 sets of 8 reps",
-        description:
-          "Do 3 sets of 8 reps. Pause for a brief moment when you bring the weights back. Focus on control and squeezing your muscles.",
+        description: "Do 3 sets of 8 reps. Pause for a brief moment when you bring the weights back. Focus on control and squeezing your muscles.",
       },
       {
         number: 4,
         video: "https://www.youtube.com/embed/bkHuvrLxpUU",
         type: "Booty blaster",
         summary: "Walking lunges for 1 min",
-        description:
-          "Do walking lunges for 1 minute. Use proper form and hold for a brief moment at the bottom of the movement",
+        description: "Do walking lunges for 1 minute. Use proper form and hold for a brief moment at the bottom of the movement",
       },
       {
         number: 5,
@@ -46,8 +41,7 @@ export default class WorkoutPage {
         video: "https://www.youtube.com/embed/skde8_aWbFo",
         type: "HIIT - High Intensity Interval Training",
         summary: "Sprint for 30 seconds and rest 30 seconds. Repeat 10 times.",
-        description:
-          "When sprinting it is important that you go all out to gain most benefits from the training",
+        description: "When sprinting it is important that you go all out to gain most benefits from the training",
       },
     ];
     //end of array
@@ -60,15 +54,15 @@ export default class WorkoutPage {
 
   template() {
     document.querySelector("#app").innerHTML += /*html*/ `
-      <section id="workouts" class="page">
-        <header class="topbar"> 
+      <section id="workoutSession" class="page">
+        <header class="topbar">
         </header>
         <div id="headline"></div>
         <div id="progressBar"></div>
-        
+
 
         <div id="workoutContainer"></div>
-       
+
       </section>
     `;
   }

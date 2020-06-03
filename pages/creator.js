@@ -35,9 +35,9 @@ export default class CreatorPage {
         <section class="profileInformation">
           <nav>
             <ul>
-              <li onclick="collapseAbout()">About</li>
-              <li onclick="collapseWorkout()">Workouts</li>
-              <li onclick="collapseInsight()">Insights</li>
+              <li id="aboutTab" class="notactive" onclick="collapseAbout()">About</li>
+              <li id="workoutsTab" class="active" onclick="collapseWorkout()">Workouts</li>
+              <li id="insightsTab" class="notactive" onclick="collapseInsight()">Insights</li>
             </ul>
           </nav>
 
@@ -192,6 +192,10 @@ export default class CreatorPage {
 
     document.querySelector("#contentAbout").classList.remove("hide");
     document.querySelector("#contentAbout").classList.add("show");
+
+    document.getElementById("aboutTab").classList.add('active');
+    document.getElementById("workoutsTab").classList.remove('active');
+    document.getElementById("insightsTab").classList.remove('active');
   }
 
   collapseWorkout() {
@@ -207,6 +211,10 @@ export default class CreatorPage {
 
     document.querySelector("#contentWorkouts").classList.remove("hide");
     document.querySelector("#contentWorkouts").classList.add("show");
+
+    document.getElementById("aboutTab").classList.remove('active');
+    document.getElementById("workoutsTab").classList.add('active');
+    document.getElementById("insightsTab").classList.remove('active');
   }
   collapseInsight() {
     if (document.querySelector("#contentAbout").classList.contains("show")) {
@@ -221,6 +229,10 @@ export default class CreatorPage {
 
     document.querySelector("#contentInsights").classList.remove("hide");
     document.querySelector("#contentInsights").classList.add("show");
+
+    document.getElementById("aboutTab").classList.remove('active');
+    document.getElementById("workoutsTab").classList.remove('active');
+    document.getElementById("insightsTab").classList.add('active');
   }
 
   collapseWorkout1() {
